@@ -1,9 +1,10 @@
 class Spacex
 -----------------
-String heavybooster
+String booster
 String Starship
-String lastrocket
+String lastlaunch
 ------------------
 void showInfo()
-void nextlunch()
-void specify
+nextbooster(int first)
+nextstarship(int second)
+void nextlunch(int first,int second)
