@@ -1,8 +1,16 @@
 public class Spacex 
 {
-    String booster="HeavyBooster";
-    String starship="Starship";
-    String lastlaunch= "Falcone 9";
+    String booster;
+    String starship;
+    String lastlaunch;
+    Spacex(){
+        this(0);
+    }
+    Spacex(string ){
+        booster="HeavyBooster";
+        starship="Starship";
+        lastlaunch= "Falcone 9"; 
+    }
 
     public void showInfo(){
         System.out.println("The rocket is called "+starship);
