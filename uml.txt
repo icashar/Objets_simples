@@ -5,6 +5,6 @@ String Starship
 String lastlaunch
 ------------------
 void showInfo()
-nextbooster(int first)
-nextstarship(int second)
-void nextlunch(int first,int second)
+nextbooster(int )
+nextstarship(int)
+void nextlunch(int,int)
