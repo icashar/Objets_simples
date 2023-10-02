@@ -1,17 +1,23 @@
 public class Spacex 
 {
-    String booster;
-    String starship;
-    String lastlaunch;
-    Spacex(){
-        this(0);
-    }
-    Spacex(string ){
-        booster="HeavyBooster";
-        starship="Starship";
-        lastlaunch= "Falcone 9"; 
-    }
 
+        String booster="HeavyBooster";
+        String starship="Starship";
+       String lastlaunch= "Falcone 9"; 
+       int nbooster;
+       int nstarship;
+   
+    Spacex(int i, int j){
+        nbooster=j;
+        nstarship=i;
+    }
+    public String toString() {
+        String output = "";
+        output += "Booster: " + booster + "; ";
+        output += "starship: " + starship + "\n";
+        
+        return output; 
+    }
     public void showInfo(){
         System.out.println("The rocket is called "+starship);
         System.out.println("The first stage is called "+booster);
