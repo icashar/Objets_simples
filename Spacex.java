@@ -11,12 +11,28 @@ public class Spacex
         nbooster=j;
         nstarship=i;
     }
+    @Override
     public String toString() {
         String output = "";
-        output += "Booster: " + booster + "; ";
-        output += "starship: " + starship + "\n";
+        output += "Booster: " + nbooster + "; ";
+        output += "starship: " + nstarship + "\n";
         
         return output; 
+    }
+    @Override
+    public boolean equals(Object other)
+    {
+        //même mémoire
+        if (this==other){
+            return true;
+        }
+        //pas Spacex(object de la classe)
+        else if (!(other instanceof Spacex)){
+            return false;
+        }
+        Spacex o= (Spacex)other;
+        return (o.nbooster==this.nbooster&& o.nstarship==this.nstarship);
+
     }
     public void showInfo(){
         System.out.println("The rocket is called "+starship);

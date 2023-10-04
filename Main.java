@@ -16,6 +16,9 @@ public class Main
 
     System.out.println("Quelle est la la fusée lance en mars 2024 ");//S25/B9
     System.out.println(S2);
+    System.out.println("est ce que la fusée de 2024 et la meme que 23");
+    System.out.println(S1.equals(S2));
+
 
 
   }  
