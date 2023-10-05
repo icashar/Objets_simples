@@ -1,10 +1,23 @@
 class Spacex
 -----------------
-String booster
-String Starship
-String lastlaunch
+-String booster
+-String Starship
+-int nbooster
+-int nstarship
 ------------------
-void showInfo()
++getNstarship(): int
++setNstarship(int) :void
++getNbooste(): int
++setNbooste(int): void
++getStarship()
++setStarship(String): void
++getBooster(): String
++setBooster(String) :void
++void showInfo()
++
++
++
++
 nextbooster(int )
 nextstarship(int)
 void nextlunch(int,int)
